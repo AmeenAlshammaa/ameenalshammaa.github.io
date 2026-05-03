@@ -1,0 +1,73 @@
+:root {
+  --green-950: #050d08;
+  --green-900: #0a1810;
+  --green-850: #0f2919;
+  --green-800: #143622;
+  --green-700: #1f4d32;
+  --green-600: #2d6b47;
+  --green-mid: #4a9d6f;
+  --green-light: #7dcea3;
+  --white: #f6fdf9;
+  --white-muted: rgba(246, 253, 249, 0.72);
+  --white-subtle: rgba(246, 253, 249, 0.48);
+  --ring: rgba(125, 206, 163, 0.45);
+
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+
+  --shadow-soft:
+    0 24px 80px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(125, 206, 163, 0.06);
+
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--white-muted);
+  background-color: var(--green-950);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--white);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--green-light);
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 16px;
+  }
+}
