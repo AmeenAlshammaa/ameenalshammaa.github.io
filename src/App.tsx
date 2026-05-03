@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
-/** Update these before publishing. */
 const CONTACT = {
-  linkedin: 'https://www.linkedin.com/in/YOUR_USERNAME',
-  email: 'mailto:your.email@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/ameen-al-shammaa-443b17200/',
+  email: 'mailto:ameenalshammaa732@gmail.com',
 } as const
 
 type TabId = 'about' | 'blue' | 'red'
